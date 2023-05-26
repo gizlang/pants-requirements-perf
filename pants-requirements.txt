@@ -91,7 +91,7 @@ brotli==1.0.9; python_version >= "2.7" and python_full_version < "3.0.0" or pyth
 cachetools==4.2.4; python_version >= "3.5" and python_version < "4.0" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6")
 cchardet==2.1.7
 celery==5.2.3; python_version >= "3.7"
-certifi==2021.10.8; python_full_version >= "3.5.3" and python_version < "4" and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.6.0" and python_version >= "3.6" and python_version < "4") and python_version >= "3.6" and (python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.6.0" and python_version >= "3.7" and python_version < "4")
+certifi==2022.12.7; python_full_version >= "3.5.3" and python_version < "4" and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.6.0" and python_version >= "3.6" and python_version < "4") and python_version >= "3.6" and (python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.6.0" and python_version >= "3.7" and python_version < "4")
 cffi==1.15.0; python_version >= "3.7" and python_version < "4" and platform_python_implementation == "CPython" and sys_platform == "win32" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_version >= "3.7")
 channels==2.4.0; python_version >= "3.5"
 chardet==3.0.4; python_version >= "3.6" and python_full_version >= "3.6.0"
@@ -113,7 +113,7 @@ crcmod==1.7
 cron-descriptor==1.2.24
 croniter==1.0.8; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
 crossplane==0.5.7
-cryptography==3.4.7; python_version >= "3.6"
+cryptography==39.0.1; python_version >= "3.6"
 cython==0.29.28; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.3.0")
 daphne==2.5.0
 dash-core-components==1.17.1; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.3.0"
