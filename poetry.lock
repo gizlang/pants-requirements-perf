@@ -2790,14 +2790,14 @@ files = [
 
 [[package]]
 name = "django-ses"
-version = "2.6.1"
+version = "3.5.0"
 description = "A Django email backend for Amazon's Simple Email Service"
 category = "main"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.7,<4.0"
 files = [
-    {file = "django-ses-2.6.1.tar.gz", hash = "sha256:a57ed335bc46d7870b78e45e4ae91fbe6b1f8a16baeeaaf0885cc7ed8c942831"},
-    {file = "django_ses-2.6.1-py2.py3-none-any.whl", hash = "sha256:73c2f6f2f9933ce3d5f32b69cc18c6872a89bf2aeebb74bad2551e6ac79b8988"},
+    {file = "django_ses-3.5.0-py3-none-any.whl", hash = "sha256:3522fe531155eb06bb015b3b36324c059194450633b33f9bd5bc9d1328822fe2"},
+    {file = "django_ses-3.5.0.tar.gz", hash = "sha256:dc1644f50608fbf3a64f085a371c61d56d68eba3c5efa69651f13dc3ba05049d"},
 ]
 
 [package.dependencies]
@@ -2806,8 +2806,8 @@ django = ">=2.2"
 pytz = ">=2016.10"
 
 [package.extras]
-bounce = ["M2Crypto", "requests (<3)"]
-events = ["M2Crypto", "requests (<3)"]
+bounce = ["cryptography (>=36.0.2)", "requests (>=2.27.1)"]
+events = ["cryptography (>=36.0.2)", "requests (>=2.27.1)"]
 
 [[package]]
 name = "django-stubs"
@@ -9227,4 +9227,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.8"
-content-hash = "806f4f3ce0cc4480dba933aeb557694ca94adc70e51864aa77105ec2a5efa288"
+content-hash = "4d136033c255f8814df0edb9a03e1bba096a2b19d237a4b3fa7429edfc92031b"
