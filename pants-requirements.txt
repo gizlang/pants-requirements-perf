@@ -151,7 +151,7 @@ django-ses==3.5.0; python_version >= "3.5"
 django-stubs==1.6.0; python_version >= "3.6"
 django-timezone-field==4.2.3; python_version >= "3.5"
 django-webpack-loader==1.4.1
-django==3.2.12; python_version >= "3.6"
+django==3.2.20; python_version >= "3.6"
 djangorestframework-dataclasses==1.1.1; python_version >= "3.7"
 djangorestframework-simplejwt==4.8.0; python_version >= "3.7"
 djangorestframework-stubs==1.2.0
