@@ -113,7 +113,7 @@ crcmod==1.7
 cron-descriptor==1.2.24
 croniter==1.0.8; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
 crossplane==0.5.7
-cryptography==39.0.1; python_version >= "3.6"
+cryptography==41.0.3; python_version >= "3.6"
 cython==0.29.28; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.3.0")
 daphne==2.5.0
 dash-core-components==1.17.1; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.3.0"
