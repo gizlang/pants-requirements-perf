@@ -424,7 +424,7 @@ urllib3==1.26.8; python_full_version >= "3.5.3" and python_version < "4" and (py
 utmp==21.10.0
 uvicorn==0.16.0
 uvloop==0.16.0; sys_platform != "win32" and sys_platform != "cygwin" and platform_python_implementation != "PyPy" and python_version >= "3.7"
-uwsgi==2.0.20
+uwsgi==2.0.22
 validators==0.18.2; python_version >= "3.4"
 venusian==3.0.0; python_version >= "3.5" and python_full_version >= "3.6.0"
 vine==5.0.0; python_version >= "3.7"
