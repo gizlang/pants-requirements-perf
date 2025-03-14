@@ -447,4 +447,4 @@ zenpy==2.0.24
 zipp==3.7.0; python_version >= "3.7" and python_version < "3.9"
 zope.event==4.5.0; python_version >= "3.7" and python_full_version < "3.0.0" or python_version >= "3.7"
 zope.interface==5.4.0; python_version >= "3.7" and python_full_version >= "3.6.7"
-setuptools==65.5.1
+setuptools==70.0.0
